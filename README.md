@@ -1,7 +1,7 @@
 # BeatHerb
 ### SSAFY 10기 공통 프로젝트 서울 5반 :musical_score: 'Bit는 알아도 Beat는 모른다' :musical_score: <br /> (2024.01.08 ~ 2024.02.16)
 
-![beatherb](/uploads/5e6cf29a813b761fe830cc749e19996f/beatherb.PNG)
+![1](https://github.com/user-attachments/assets/c3dd723f-561e-4879-b5c7-0aab64fa2860)
 
 ## :green_book: 목차 :green_book:
 :one: [프로젝트 소개](#1-프로젝트-소개) <br/>
@@ -48,41 +48,73 @@
 
 ## 3. 서비스 화면
 #### 홈 화면 & 로그인 화면
-|![home](/uploads/3ffe1ab56bea7b2e8c3343866e8a4308/home.gif){width=500px height=250px}|![login](/uploads/cf2df092ca02d3850cbe0dd1c968f9e0/login.gif){width=500px height=250px}|
-|:---:|:---:|
-|**홈 화면**|**로그인 화면**|
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/755d26df-68b2-4e00-81e7-713d9f98734f" width="500" height="250" /></td>
+    <td><img src="https://github.com/user-attachments/assets/68325379-cc31-4518-9773-155a5ba6ac27" width="500" height="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>홈 화면</strong></td>
+    <td align="center"><strong>로그인 화면</strong></td>
+  </tr>
+</table>
 
 #### 작업실 화면 (소리 쌓기 화면)
-|![work1](/uploads/eb0b428c06b054b69a7b5222e76514a1/work1.gif){width=500px height=250px}|![work2](/uploads/6016423a0dc2af6369357c7acbab6b59/work2.gif){width=500px height=250px}|
-|:---:|:---:|
-|**내 컴퓨터에서 음원 파일 가져오고 BeatHerb에서 <br />마음에 드는 소리를 쌓은 후 업로드하는 화면**|**BeatHerb에서 마음에 드는 소리를 가져오고 <br />가상 악기로 만든 소리를 쌓은 후 업로드하는 화면**|
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/755d26df-68b2-4e00-81e7-713d9f98734f" width="500" height="250" /></td>
+    <td><img src="https://github.com/user-attachments/assets/68325379-cc31-4518-9773-155a5ba6ac27" width="500" height="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>내 컴퓨터에서 음원 파일 가져오고 BeatHerb에서 <br />마음에 드는 소리를 쌓은 후 업로드하는 화면</strong></td>
+    <td align="center"><strong>BeatHerb에서 마음에 드는 소리를 가져오고 <br />가상 악기로 만든 소리를 쌓은 후 업로드하는 화면</strong></td>
+  </tr>
+</table>
+
 #### 컨텐트 상세 검색 화면
-|![detail_search](/uploads/39521cd33e4cd625e61058e9a23921d9/detail_search.gif){width=500px height=250px}|
-|:---:|
-|**컨텐트 상세 검색 화면**|
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/755d26df-68b2-4e00-81e7-713d9f98734f" width="500" height="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>컨텐트 상세 검색 화면</strong></td>
+  </tr>
+</table>
 
 #### 게시판 화면
-|![content](/uploads/d3a75cf9a72319b12029e1591b2506d1/content.gif){width=500px height=250px}|![live](/uploads/915b35e7e3ecf7fc081ba2a2d5e5027e/live.gif){width=500px height=250px}
-|:---:|:---:|
-|**전체 컨텐트 게시판 화면**|**라이브 게시판 화면**|
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/755d26df-68b2-4e00-81e7-713d9f98734f" width="500" height="250" /></td>
+    <td><img src="https://github.com/user-attachments/assets/68325379-cc31-4518-9773-155a5ba6ac27" width="500" height="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>전체 컨텐트 게시판 화면</strong></td>
+    <td align="center"><strong>라이브 게시판 화면</strong></td>
+  </tr>
+</table>
 
 #### 라이브 화면
-|![livecat](/uploads/e8bcf51e339fd01eecb172b5c9441f59/livecat.gif){width=500px height=250px}|
-|:---:|
-|**라이브 화면**|
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8bbb585f-20a2-46aa-9ab5-32cee36dcccf" width="500" height="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>라이브 화면</strong></td>
+  </tr>
+</table>
 
 ## 4. 주요 기능
 #### 1. 소리 쌓기 서비스 :sound:
 ##### 기존에 등록되어 있는 음반 정보를 가져와서 그 음반 위에 소리를 쌓을 수 있습니다.<br/><br/> ex)<br/>1-1). 피아노 연주가 나오는 멜로디 정보를 가져와서 보컬 소리를 쌓을 수 있음.<br/>1-2). 원하는 보컬 정보를 가져온 후 piano, synth, drum과 같은 가상악기를 통해 소리를 녹음하여 쌓을 수 있음.
-![소리쌓기서비스](/uploads/26068053b2240e8174cb0f394978950c/drum.mp4)
+https://github.com/user-attachments/assets/a380915b-c8ba-420f-8d8d-15f49309688f
 
 #### 2. 라이브를 활용해 커뮤니티로 확장 :tv:
 ##### 라이브에서 공유하는 컨텐츠에 관심 있는 사람은 누구나 들어와서 라이브 방송에 참여 할 수 있습니다.
-![라이브](/uploads/42041a4f195ef27a198c8e708d1d56c0/live.mp4)
 
 #### 3. 해시태그를 이용한 상세 검색 :computer:
 ##### 피아노, 드럼, MR 등과 같은 해시태그를 기반으로 정확한 검색 결과를 얻을 수 있습니다.
-![해시태그를 이용한 상세검색](/uploads/d1ae2b01a1cba5cbbf194550fae7d88c/detail_search.mp4)
+https://github.com/user-attachments/assets/6a0af441-cdbd-4cf5-9fb4-690f5457c77c
+
 
 ## 5. 프로젝트 특징 기술 소개
 #### 1. kafka 도입을 활용한 멀티 프로세싱 음악 처리 후 사용자는 업로드가 되었다는 신호를 보다 빠르게 제공 받을 수 있습니다.<br/> :arrow_forward: (약 10초 이상 -> 약 3초)
@@ -93,68 +125,82 @@
 ## 6. 설계 문서
 #### API
 <details>
-<summary>Member</summary>
-![member-controller](/uploads/86e6f8888f3eac80ad12acf659a6f1da/member-controller.PNG)
-![member-info-controller](/uploads/026d9e72b03460ba22c0b2fc06469c69/member-info-controller.PNG)
+  <summary>Member</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/b122eb13-d9d0-4d78-b2c7-8c2faebdf083"/>
+    <img src="https://github.com/user-attachments/assets/5c331e66-311a-4774-b8f0-8d37924a31d5"/>
+  </p>
 </details>
 
 <details>
-<summary>Auth</summary>
-![auth-controller](/uploads/42268e797cbc6c283b823d3d603cbae0/auth-controller.PNG)
+  <summary>Auth</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/cddb99b9-7018-484b-b810-9b865dc1988d"/>
+  </p>
 </details>
 
 <details>
-<summary>HashTag</summary>
-![hash-tag-controller](/uploads/e0240fb282ab5d936eff92c94743766f/hash-tag-controller.PNG)
+  <summary>HashTag</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/e7101d57-44c9-4c37-9078-d3c43d52caf0"/>
+  </p>
 </details>
 
 <details>
-<summary>Live</summary>
-![live-controller](/uploads/ff3abc8893837f545349fa3cfdb2bc8b/live-controller.PNG)
+  <summary>Live</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/f067a60b-731b-4c3b-ab20-f270093dd52d"/>
+  </p>
 </details>
 
 <details>
-<summary>Content</summary>
-![content-controller](/uploads/6d540e30751dde097ae2cc04b85d994a/content-controller.PNG)
-![content-load-controller](/uploads/8c5c7836b0c711ece760ab49374d3555/content-load-controller.PNG)
-![content-detail-controller](/uploads/f468c84a4fb8da9c07cb2f666066113f/content-detail-controller.PNG)
-![content-search-controller](/uploads/808b950a4edca9ea9f56f31d164d669d/content-search-controller.PNG)
+  <summary>Content</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/051f77a4-bd62-44cc-a4c2-93c25085c242"/>
+    <img src="https://github.com/user-attachments/assets/852a54b8-e4f5-4f1a-81b2-90551b9e7094"/>
+    <img src="https://github.com/user-attachments/assets/a4b0cd55-c58a-4b8c-94a3-d83cb9a581ab"/>
+    <img src="https://github.com/user-attachments/assets/6581f1a6-dfb2-4b30-ae4e-c1d615772380"/>
+  </p>
 </details>
 
 <details>
-<summary>Follow</summary>
-![follwer-controller](/uploads/5ce9a9ec610a347d1176252644928545/follwer-controller.PNG)
-![following-controller](/uploads/7fb20754acfb80ac812a9f9bf6368502/following-controller.PNG)
+  <summary>Follow</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/d39b0ee7-1d62-4ef6-8c1f-6e2d26455ba8"/>
+    <img src="https://github.com/user-attachments/assets/c4086107-547d-433d-95b0-46d74a9550bd"/>
+  </p>
 </details>
 
 <details>
-<summary>DirectMessage</summary>
-![direct-message-controller](/uploads/2730867f590f29ceb3f3c7ddbbab970e/direct-message-controller.PNG)
+  <summary>DirectMessage</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/1d18d0ca-3237-4cb9-bafe-ed29e75e69b7"/>
+  </p>
 </details>
 
 <details>
-<summary>Interest</summary>
-![interest-controller](/uploads/a84fb3ecd8aae38831f0b7df35792f41/interest-controller.PNG)
+  <summary>Interest</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/7378f7b5-3860-4bac-b684-2f3fca2037c1"/>
+  </p>
 </details>
 
 <details>
-<summary>Star</summary>
-![star-controller](/uploads/1adc9a1ec22d8c2692cabedbd4d110a1/star-controller.PNG)
+  <summary>Star</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/56a71859-3c22-4302-9b64-a8aee574177b"/>
+  </p>
 </details>
 
 <details>
-<summary>Comment</summary>
-![comment-controller](/uploads/302ac002cb85debddd38b7072f5221f5/comment-controller.PNG)
+  <summary>Comment</summary>
+  <p>
+    <img src="https://github.com/user-attachments/assets/12336ce8-191b-4dd5-9caf-766af49a4244"/>
+  </p>
 </details>
 
 #### ERD
-![BeatHerb_erd](/uploads/21ec4252bfff6dd37f71c99fedc1b652/BeatHerb_erd.png)
+![BeatHerb_erd](https://github.com/user-attachments/assets/24dcb8c6-c3ab-49d2-aefc-13f8e9f46b26)
 
 #### Architecture Structure
-![architecture](/uploads/6f872805ac621c38eaf72d66f7b0b5ec/image.png)
-
-## 7. 팀원 소개
-|팀장(김도현)|팀원(김범수)|팀원(최지희)|팀원(박도연)|팀원(박세웅)|팀원(유시연)|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|![dohyun](/uploads/e4a3c494f282a03cd1c26b1377b9d7b2/dohyun.png){width=500px height=200px}|![bumsoo](/uploads/ac9a84b33f9b46b8ad43337c4dc87bc0/bumsoo.png){width=500px height=200px}|![sihee](/uploads/a8903c64a59a1da77954b64864d842f9/sihee.jpg){width=500px height=200px}|![doyeon](/uploads/4174f69c0a25a1af26b790a358ae87e6/doyeon.jpg){width=500px height=200px}|![seyoog](/uploads/f6c502884106fe25f4eda0cae178922c/seyoog.jpg){width=500px height=200px}|![siyeon](/uploads/63d13eced2448b27d8528fcfd8d2a49a/siyeon.jpg){width=500px height=200px}|
-|**Backend Lead/Infra**|**Frontend Lead**|**Full Stack**|**Full Stack**|**Full Stack**|**Full Stack**|
+![image](https://github.com/user-attachments/assets/1db07ff0-db80-4170-b09f-0289eaabb173)
