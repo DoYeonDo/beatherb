@@ -110,6 +110,7 @@ https://github.com/user-attachments/assets/a380915b-c8ba-420f-8d8d-15f49309688f
 
 #### 2. 라이브를 활용해 커뮤니티로 확장 :tv:
 ##### 라이브에서 공유하는 컨텐츠에 관심 있는 사람은 누구나 들어와서 라이브 방송에 참여 할 수 있습니다.
+https://github.com/user-attachments/assets/15bf8a02-3252-4789-8ccc-716fe095a6df
 
 #### 3. 해시태그를 이용한 상세 검색 :computer:
 ##### 피아노, 드럼, MR 등과 같은 해시태그를 기반으로 정확한 검색 결과를 얻을 수 있습니다.
